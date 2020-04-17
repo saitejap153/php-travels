@@ -47,6 +47,7 @@ public class NewTest1 {
 
   @AfterClass
   public void afterClass() {
+	  system.out.println("saiteja");
 	 driver.quit();
 	 
   }
