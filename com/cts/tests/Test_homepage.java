@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class NewTest1 {
+public class Test_homepage {
 	WebDriver driver;
 	Homepage hp;
   @Test
@@ -47,7 +47,7 @@ public class NewTest1 {
 
   @AfterClass
   public void afterClass() {
-	  system.out.println("saiteja");
+	 // system.out.println("saiteja");
 	 driver.quit();
 	 
   }
